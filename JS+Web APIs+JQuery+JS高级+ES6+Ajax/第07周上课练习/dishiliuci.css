@@ -1,0 +1,78 @@
+/* .d01 {
+    width: 100px;
+    height: 100px;
+    background-color: #c2ffc0;
+}
+.d02 {
+    background-color: #ffc0ff;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .d01 {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 640px;
+    margin: auto;
+    background-color: #ffc0ff;
+}
+.d02 {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    background-color: #c0ffff;
+}
+span {
+    display: inline-block;
+    width: 50px;
+    font-size: 15px;
+}
+textarea {
+    box-sizing: border-box;
+    width: 500px;
+    height: 100px;
+    resize: none;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+.d01 ul li {
+    font-size: 12px;
+    margin: 0 50px;
+    box-sizing: border-box;
+    list-style: none;
+    border-bottom: 1px solid #333;
+    display: none;
+}
+.d01 ul li a {
+    text-decoration: none;
+    float: right;
+} */
+/* img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+} */
+body,  div,  p { margin: 0; padding: 0;}
+ul { list-style: none;}
+html { overflow: hidden;}
+body { width: 100%;  *cursor: default;
+overflow: hidden; font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;}
+#pageContain { overflow: hidden;}
+.page { display: none; width: 100%; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0;}
+.contain { width: 100%; height: 100%; display: none; position: relative; z-index: 0;}
+.current .contain, .slide .contain { display: block;}
+.current { display: block; z-index: 1;}
+.slide { display: block; z-index: 2;}
+.swipe { display: block; z-index: 3; transition-duration: 0ms !important; -webkit-transition-duration: 0ms !important;}
+.page1 { background: #37c1e3;}
+.page2 { background: #009922;}
+.page3 { background: #992211;}
+.page4 { background: #ff00ff;}
+.page5 { background: #00ff00;}
+.page6 { background: #22ffff;}
+#navBar { z-index: 3; position: absolute; top: 30%; right: 3%;}
+#navBar .active { background: #ccc;}
+#navBar li { cursor: pointer; margin-bottom: 10px; transition: all .7s ease; border-radius: 50%; line-height: 40px; text-align: center; width: 40px; height: 40px;}
+
+.txt { margin-top: 20%; font-size: 50px; color: #fff; text-align: center;}

@@ -1,0 +1,48 @@
+body {
+    perspective: 1000px;
+}
+.a01 {
+    width: 300px;
+    height: 200px;
+    margin: 150px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: xzmm 5s linear infinite;
+}
+@keyframes xzmm {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.a01:hover {
+    animation-play-state: paused;
+}
+.a01 div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(wu.jpg);
+}
+.a01 div:nth-child(1) {
+    transform: translateZ(300px);
+}
+.a01 div:nth-child(2) {
+    transform: rotateY(60deg) translateZ(300px);
+}
+.a01 div:nth-child(3) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+.a01 div:nth-child(4) {
+    transform: rotateY(180deg) translateZ(300px);
+}
+.a01 div:nth-child(5) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+.a01 div:nth-child(6) {
+    transform: rotateY(300deg) translateZ(300px);
+}

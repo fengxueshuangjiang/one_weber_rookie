@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .a1 {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #ffc0ff;
+}
+p {
+    height: 20px;
+}
+input {
+    width: 100px;
+    height: 20px;
+    border: 0px;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    color: #fff;
+    background-color: #550055;
+    border: 0px;
+}
+.b1 {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #daff33;
+    overflow: hidden;
+}
+.a2,.a3 {
+    display: inline-block;
+    margin: 20px 20px;
+}
+table {
+    margin: 20px auto;
+}
+th,td {
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #3700ff;
+    text-align: center;
+} */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #ffc0ff;
+}

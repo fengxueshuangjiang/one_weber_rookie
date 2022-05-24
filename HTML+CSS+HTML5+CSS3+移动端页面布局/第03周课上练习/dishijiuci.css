@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hz03 {
+  background-color: #9fffa7;
+  width: 300px;
+  height: 200px;
+  font-size: 14px;
+}
+.hz03 ul li {
+  width: 250px;
+  height: 100px;
+  background-color: #ff9fff;
+  font-size: 12px;
+  list-style: none;
+}
+.hz03 ul li:hover {
+  background-color: #9fffa7;
+}

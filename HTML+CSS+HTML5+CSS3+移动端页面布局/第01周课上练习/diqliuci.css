@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bk01 {
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f666ff;
+    text-align: center;
+    line-height: 200px;
+}
+
+.bk02 {
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #f666ff;
+}
+
+.bk03 {
+    width: 200px;
+    height: 100px;
+    border: 10px dotted #6fff66;
+}
+
+.bk04 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #f666ff;
+    border-top: 2px solid #86e7ff;
+}
+
+.dq {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bk05 th {
+    width: 600px;
+    height: 40px;
+}
+
+.bk05 td,
+.bk05 th {
+    border: 5px solid #f666ff;
+    font-size: 12px;
+}
+
+.bk05 {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.nbj01 {
+    background-color: #86e7ff;
+    width: 200px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.nbj02 a {
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    background-color: #86e7ff;
+}
+
+.nbj03 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #86e7ff;
+}
+
+.nbj02 a:hover,
+.nbj03 a:hover {
+    background-color: #f666ff;
+}
+
+.xm a:hover {
+    background-color: #6fff66;
+    color: #f666ff;
+}
+
+.xm a {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    color: #6fff66;
+    background-color: #f666ff;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+.wbj01 {
+    width: 200px;
+    height: 200px;
+    background-color: #f666ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wbj02 {
+    width: 200px;
+    height: 200px;
+    background-color: #f666ff;
+    margin-bottom: 20px;
+}
+
+.juz01 {
+    width: 80%;
+    height: 400px;
+    background-color: #6fff66;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.damao {
+    background-color: #6fff66;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.ermao {
+    background-color: #6fff66;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.yuan li {
+    margin-top: 1px;
+    list-style: none;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f666ff;
+    border-radius: 15px;
+}
+
+.yuan {
+    width: 100px;
+    margin: auto;
+}
+
+.yy {
+    width: 200px;
+    height: 200px;
+    background-color: #6fff66;
+}
+
+.yy:hover {
+    box-shadow: 30px 30px 10px 30px #f666ff;
+}
+
+.wzyy {
+    text-shadow: 10px 10px 5px red;
+}

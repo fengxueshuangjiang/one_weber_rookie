@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sx input[value] {
+    color: #33ff44;
+    outline: 0;
+}
+.sx input[type=password] {
+    color: #33ff44;
+    outline: 0;
+}
+.kuai {
+    width: 1004px;
+    height: 200px;
+    background-color: aqua;
+}
+div[class^=kai] {
+    width: 200px;
+    height: 200px;
+    background-color: #ff9fff;
+    border-right: 1px solid #33ff44;
+    float: left;
+}
+div[class$=mmkk] {
+    width: 200px;
+    height: 200px;
+    background-color: #73ff6e;
+    border-right: 1px solid #f07fff;
+    float: left;
+}
+div[class*=u3] {
+    border-right:1px solid #000000;
+}
+div.kaitou5-mmkk {
+    border: none;
+}
+.weilei p:first-child {
+    color: #73ff6e;
+    background-color: #ff9fff;  
+}
+.weilei p:last-child {
+    color: #73ff6e;
+    background-color: #ff9fff;
+}
+.weilei p:nth-child(odd) {
+    color: #ff6e6e;
+    background-color: #9fe4ff;
+}
+.weilei p:nth-child(even) {
+    color: #ff6e6e;
+    background-color: #fc9fff;
+}
+.weilei01 li:nth-child(2n+1) {
+    color: #000000;
+    background-color: #ea9fee;
+}
+.weilei01 li:nth-child(2n) {
+    color: #000000;
+    background-color: #9feea3;
+}
+.oftype p:first-of-type {
+    background-color: #33ff44;
+}
+.oftype div:last-of-type {
+    background-color: #33ff44;
+}
+.oftype div:nth-of-type(2) {
+    background-color: #33e7ff;
+    font-family: 'iconfont';
+}
+.weiyuansu01 {
+    width: 200px;
+    height: 35px;
+    background-color: #ff9fff;
+    margin: 0 auto;
+    border: 1px solid #6b6b6b;
+    position: relative;
+}
+.weiyuansu01::after {
+    font-family: 'iconfont';
+    content: '\e6b9';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 15px;
+}
+.tudou {
+    background-color: #33e7ff;
+    width: 350px;
+    height: 230px;
+    position: relative;
+}
+.tudou img {
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+}
+.tudou img:hover {
+    width: 100%;
+    height: 100%;
+    filter: blur(0);
+}
+.tudou::after {
+    background: rgba(0, 0, 0, 0.3) url(play-ico_f37f0eb6_f37f0eb6.png) no-repeat center;
+    width: 350px;
+    height: 230px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.tudou:hover::after {
+    display: block;
+}
+.hzjs1 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #33e7ff;
+    background-color: #ff9fff;
+    padding: 20px;
+    box-sizing: content-box;
+}
+.hzjs2 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #33e7ff;
+    background-color: #ff9fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* .guodu{
+    width: 306px;
+    height: 200px; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.guodu .guodu1,.guodu .guodu3{
+    width: 100px;
+    height: 200px;
+    background-color: #33ff44;
+    border: 0;
+    box-shadow: 0 0 0 0 #000000;
+    float: left;
+}
+.guodu2 {
+    width: 100px;
+    height: 200px;
+    background-color: #33ff44;
+    border: 0;
+    box-shadow: 0 0 0 0 #000000;
+    transition: all 0.5s ease 0s;
+    float: left;
+}
+.guodu2:hover {
+    width: 104px;
+    height: 204px;
+    background-color: #ff9fff;
+    border: 1px solid #33e7ff;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+} */
+.guodu{
+    width: 300px;
+    height: 200px; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.guodu .guodu1,.guodu .guodu3{
+    width: 100px;
+    height: 200px;
+    background-color: #33ff44;
+    border: 0;
+    box-shadow: 0 0 0 0 #000000;
+    float: left;
+}
+.guodu2 {
+    width: 100px;
+    height: 200px;
+    background-color: #33ff44;
+    box-shadow: 0 0 0 0 #000000;
+    transition: all 0.5s ease 0s;
+    float: left;
+}
+.guodu2:hover {
+    width: 100px;
+    height: 204px;
+    background-color: #ff9fff;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.jdt {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #33e7ff;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.jd {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background-color: #33e7ff;
+    border-radius: 25px;
+    transition: all 1.5s;
+}
+.jdt:hover .jd {
+    width: 100%;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+li {
+    list-style: none;
+}

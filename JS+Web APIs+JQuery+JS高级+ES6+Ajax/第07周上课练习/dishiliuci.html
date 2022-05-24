@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第十六次</title>
+    <link rel="stylesheet" href="dishiliuci.css">
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Hind:400,600|Open+Sans:300,600" rel="stylesheet">
+  <link rel="stylesheet" href="./dist/sortable.min.css">
+  <script type="text/javascript" src="./dist/sortable.min.js"></script>
+</head>
+
+<body>
+    <!-- <main class="sortable">
+        <div class="container">
+          <div class="wrapper">
+            <ul class="sortable__nav nav">
+              <li>
+                <a data-sjslink="all" class="nav__link">
+                  All
+                </a>
+              </li>
+              <li>
+                <a data-sjslink="flatty" class="nav__link">
+                  Flatty
+                </a>
+              </li>
+              <li>
+                <a data-sjslink="funny" class="nav__link">
+                  Funny
+                </a>
+              </li>
+            </ul>
+            <div id="sortable" class="sjs-default">
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0001.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                      在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0002.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                        在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="funny">
+                <div class="card">
+                  <img class="card__picture" src="0003.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                        在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0004.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                        在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0005.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                        在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="funny">
+                <div class="card">
+                  <img class="card__picture" src="0006.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">这是个傻子</h2>
+                    <p class="card__text">
+                        在2022年撞坏了脑子
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0007.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">Example 7</h2>
+                    <p class="card__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum enim beatae vero culpa, fuga, magni sunt dolores nam...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="flatty">
+                <div class="card">
+                  <img class="card__picture" src="0008.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">Example 8</h2>
+                    <p class="card__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae numquam, blanditiis necessitatibus...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-sjsel="funny">
+                <div class="card">
+                  <img class="card__picture" src="0009.jpg" alt="">
+                  <div class="card-infos">
+                    <h2 class="card__title">Example 9</h2>
+                    <p class="card__text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur adipisci voluptatum laborum officiis...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main> -->
+      <!-- <img data-lazy-src="0001.jpg" />
+      <img data-lazy-src="0002.jpg" />
+      <img data-lazy-src="0003.jpg" />
+      <img data-lazy-src="0004.jpg" />
+      <img data-lazy-src="0005.jpg" />
+      <img data-lazy-src="0006.jpg" />
+      <img data-lazy-src="0007.jpg" />
+      <img data-lazy-src="0008.jpg" />
+      <img data-lazy-src="0009.jpg" /> -->
+      <body>
+        <div id="pageContain">
+          <div class="page page1 current">
+            <div class="contain">
+              <p class="txt">第一屏</p>
+            </div>
+          </div>
+        
+          <div class="page page2">
+            <div class="contain">
+              <p class="txt">第二屏</p>
+            </div>
+          </div>
+        
+          <div class="page page3">
+            <div class="contain">
+              <p class="txt">第三屏</p>
+            </div>
+          </div>
+        
+          <div class="page page4">
+            <div class="contain">
+              <p class="txt">第四屏</p>
+            </div>
+          </div>
+        
+          <div class="page page5">
+            <div class="contain">
+              <p class="txt">第五屏</p>
+            </div>
+          </div>
+        </div>
+        
+        <ul id="navBar">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+    <!-- <div>123</div>
+    <div>123</div>
+    <div>123</div> -->
+    <!-- <div class="d01">我的臭宝</div>
+    <div>
+        <ul>
+            <li>123123</li>
+            <li>123123</li>
+            <li>123123</li>
+            <li>123123</li>
+            <li>123123</li>
+        </ul>
+        <ol>
+            <li>原来的</li>
+            <li>原来的</li>
+            <li>原来的</li>
+        </ol>
+    </div> -->
+    <!-- <div class="d01">
+        <div class="d02"></div>
+        <span>评论区</span>
+        <textarea class="t01" cols="30" rows="10"></textarea>
+        <button>发布</button>
+        <ul>
+        </ul>
+    </div> -->
+    <!-- <div>123456</div> -->
+    <!-- <div>1</div> -->
+    
+</body>
+<script src="jquery.js"></script>
+<script type="text/javascript" src="js/jaliswall.js"></script>
+<script src="./dist/EasyLazyload.min.js"></script>
+<script src="dddxxx.js"></script>
+<script src="dishiliuci.js"></script>
+
+</html>

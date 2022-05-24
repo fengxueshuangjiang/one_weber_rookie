@@ -1,0 +1,37 @@
+/* div{
+    width: 1000px;height: 400px;
+} */
+.d01 {
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #ffc0ff;
+}
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner {
+    width: 1000px;
+    height: 600px;
+}
+.carousel-inner .item {
+    width: 1000px;
+    height: 600px;
+}
+.carousel-inner .item img {
+    width: 1000px;
+    height: 600px!important;
+}
+/* .d02 {
+    width: 1000px;
+    height: 50px;
+    background-color: #ffc0ff;
+    margin: auto;
+}
+input {
+    height: 50px;
+} */
+#dsb {
+    vertical-align: middle;
+}

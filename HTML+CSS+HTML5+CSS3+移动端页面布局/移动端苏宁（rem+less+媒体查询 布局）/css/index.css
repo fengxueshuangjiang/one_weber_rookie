@@ -1,0 +1,336 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  min-width: 320px;
+  width: 15rem;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 15rem;
+  height: 1.76rem;
+  background-color: #ff9901;
+  transform: translateX(-50%);
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+header .hz01 {
+  width: 0.88rem;
+  height: 1.4rem;
+  margin: 0.22rem 0.5rem 0.48rem;
+  background: url(../image/cart.png) no-repeat;
+  background-size: 0.88rem 1.4rem;
+}
+header .hz02 {
+  flex: 1;
+}
+header .hz02 input {
+  width: 100%;
+  height: 1.32rem;
+  border-radius: 0.66rem;
+  font-size: 0.5rem;
+  border: 0;
+  padding-left: 1.1rem;
+}
+header .hz03 {
+  width: 1.5rem;
+  height: 1.4rem;
+  font-size: 0.5rem;
+  line-height: 1.4rem;
+  text-align: center;
+  margin: 0.2rem;
+  color: #fff;
+}
+.banner {
+  width: 15rem;
+  height: 6.76rem;
+  margin-top: 2.3rem;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.gg {
+  margin-top: 0.4rem;
+  width: 15rem;
+  display: flex;
+}
+.gg a {
+  flex: 1;
+}
+.gg a img {
+  width: 100%;
+}
+.nav {
+  overflow: hidden;
+  width: 15rem;
+  margin-top: 0.4rem;
+}
+.nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+  text-align: center;
+  text-decoration: none;
+}
+.nav a img {
+  display: block;
+  width: 1.64rem;
+  height: 1.64rem;
+  margin: 0.2rem auto 0.1rem;
+}
+.nav a span {
+  display: block;
+  color: #333;
+  font-size: 0.5rem;
+}
+.hz04 {
+  box-sizing: border-box;
+  padding: 0 0.3rem;
+  margin-top: 0.4rem;
+  width: 15rem;
+  height: 8.8rem;
+  background: -webkit-linear-gradient(top, #fff4fb, #faafe4);
+  border-radius: 0.2rem;
+}
+.hz04 .hz05 {
+  width: 100%;
+  height: 45%;
+}
+.hz04 .hz05 img {
+  width: 100%;
+  height: 100%;
+}
+.hz04 .hz06 {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 45%;
+}
+.hz04 .hz06 img {
+  width: 100%;
+  height: 100%;
+}
+.hz07 {
+  margin-top: 0.4rem;
+  margin-left: 0.3rem;
+  width: 14.4rem;
+  height: 10rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+.hz07 .hz08 {
+  width: 100%;
+  height: 20%;
+}
+.hz07 .hz08 img {
+  width: 100%;
+  height: 100%;
+}
+.hz07 .hz09 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.hz07 .hz09 span {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0.2rem 0.4rem 0.2rem;
+}
+.hz07 .hz09 span img {
+  display: block;
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 auto;
+}
+.hz07 .hz09 span .p1 {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  font-size: 0.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.hz07 .hz09 span .p2 {
+  float: left;
+  padding: 0;
+  border: 1px solid #f96945;
+  font-size: 0.2rem;
+  background-color: transparent;
+  border-radius: 0.1rem;
+  color: #de6932;
+}
+.hz07 .hz09 span .p3 {
+  margin-top: -0.6rem;
+  font-size: 0.2rem;
+  color: #de6932;
+}
+.hz07 .hz09 span .p4 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 0.2rem;
+  color: #de6932;
+}
+.hz07 .hz09 span .p4::after {
+  display: block;
+  content: '';
+  background: url(../image/qiangCart-42.png) no-repeat;
+  background-size: 0.84rem 0.84rem;
+  position: absolute;
+  right: 0.2rem;
+  top: -0.4rem;
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.hz07 .hz09 span .p4 i {
+  font-size: 0.56rem;
+  font-style: normal;
+}
+.hz07 .hz09 span:nth-child(2) {
+  margin: 0 0.3rem;
+}
+.hz010 {
+  margin-top: 0.4rem;
+  margin-left: 0.3rem;
+  width: 14.4rem;
+  height: 4.2rem;
+  display: flex;
+}
+.hz010 span {
+  flex: 1;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+.hz010 span img {
+  width: 100%;
+}
+.hz11 {
+  margin-top: 0.2rem;
+  margin-left: 0.3rem;
+  width: 14.4rem;
+  height: 10.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hz11 span {
+  width: 6.8rem;
+  background-color: #ffffff;
+  margin: 0 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+}
+.hz11 span img {
+  display: block;
+  width: 6.92rem;
+  height: 6.92rem;
+  margin: 0 auto;
+}
+.hz11 span .p1 {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  font-size: 0.4rem;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.hz11 span .p2 {
+  float: left;
+  padding: 0;
+  border: 1px solid #f96945;
+  font-size: 0.2rem;
+  background-color: transparent;
+  border-radius: 0.1rem;
+  color: #de6932;
+  width: 2.6rem;
+  text-align: center;
+}
+.hz11 span .p4 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
+  font-size: 0.6rem;
+  color: #de6932;
+}
+.hz11 span .p4::after {
+  display: block;
+  content: '';
+  background: url(../image/addCart-42.png) no-repeat;
+  background-size: 0.84rem 0.84rem;
+  position: absolute;
+  right: 0.2rem;
+  top: -0.4rem;
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.hz11 span .p4 i {
+  font-size: 0.72rem;
+  font-style: normal;
+}

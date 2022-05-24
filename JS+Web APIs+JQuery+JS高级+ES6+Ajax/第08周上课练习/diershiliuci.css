@@ -1,0 +1,39 @@
+.a1 {
+    width: 800px;
+    height: 600px;
+    background-color: #ffc0ff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.a1 ul li {
+    list-style: none;
+    width: 700px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.a1 ul li label{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: right;
+    margin-right: 10px;
+}
+.a1 ul li input {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+}
+.a2 {
+    margin-left: 220px;
+}
+.a2 ul li {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.a2 ul li:first-child {
+    width: 80px;
+}

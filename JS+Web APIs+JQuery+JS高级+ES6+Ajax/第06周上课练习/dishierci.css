@@ -1,0 +1,184 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.d01 {
+    width: 1200px;
+    height: 300px;
+    background-color: #ffc0ff;
+    margin: auto;
+}
+
+.d02 {
+    width: 1200px;
+    height: 300px;
+    background-color: #ccffc0;
+    margin: 10px auto;
+}
+
+.d03 {
+    width: 1200px;
+    height: 300px;
+    background-color: #fbffc0;
+    margin: 10px auto;
+}
+
+.d04 {
+    width: 1200px;
+    height: 300px;
+    background-color: #d8c0ff;
+    margin: 10px auto;
+}
+
+.d05 {
+    width: 1200px;
+    height: 300px;
+    background-color: #c0f2ff;
+    margin: 10px auto;
+}
+
+.d001 {
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    width: 50px;
+    height: 100px;
+    background-color: #ffc0c0;
+}
+
+.d002 {
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    display: none;
+    background-color: #ffc0c0;
+}
+
+a {
+    text-decoration: none;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+}
+.d01 {
+    margin: auto;
+    position: relative;
+    width: 1200px;
+    height: 50px;
+    background-color: #ffc0ff;
+    border: 1px solid #b9ebff;
+}
+.d01 img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.d01 ul {
+    position: absolute;
+    z-index: 2;
+}
+.d01 ul li {
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+    list-style: none;
+    float: left;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.d01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #ffc0ff;
+} */
+/* 移动端轮播图
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d01 {
+    position: relative;
+    margin-top: 2.6667vw;
+    margin-left: 2.6667vw;
+    width: 94.6667vw;
+    height: 60vw;
+    background-color: #ff9fff;
+    overflow: hidden;
+}
+
+.d01 .u01 {
+    width: 750%;
+    margin-left: -94.6667vw;
+}
+
+.d01 .u01 li {
+    float: left;
+    width: 94.6667vw;
+}
+
+.d01 .u01 li img {
+    width: 100%;
+    height: 60vw;
+}
+
+.d01 .u02 {
+    position: absolute;
+    bottom: 2.6667vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.d01 .u02 .a1 {
+width: 5.3333vw;
+background-color: #2bc50d;
+}
+
+.d01 .u02 li {
+    float: left;
+    width: 2.6667vw;
+    height: 2.6667vw;
+    border-radius: 1.3333vw;
+    background-color: #fff;
+    margin: 0 0.5333vw;
+}
+
+li {
+    list-style: none;
+}
+
+.d02 {
+    display: none;
+    position: fixed;
+    top: 133.3333vw;
+    right: 2.6667vw;
+    background-color: #cfffc0;
+    font-size: 2.6667vw;
+    width: 5.3333vw;
+    height: 7.5vw;
+}
+
+.d03 {
+    width: 100vw;
+    height: 160vw;
+    background-color: #ffc0ff;
+}
+
+.d04 {
+    width: 100vw;
+    height: 160vw;
+    background-color: #c0d9ff;
+} */

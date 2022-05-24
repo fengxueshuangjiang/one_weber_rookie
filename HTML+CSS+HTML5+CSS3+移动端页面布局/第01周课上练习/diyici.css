@@ -1,0 +1,14 @@
+#tab1
+{
+    width: 300px;
+    height:200px;
+    border:#f898fc;
+}
+#ul1
+{
+    list-style-type: none;
+}
+#dl1
+{
+    list-style: none;
+}

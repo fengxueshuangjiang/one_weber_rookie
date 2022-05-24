@@ -1,0 +1,325 @@
+@import "common";
+@htmlfs: 50;
+
+body {
+    min-width: 320px;
+    width: 15rem;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 15rem;
+    height: (88rem / @htmlfs);
+    background-color: #ff9901;
+    transform: translateX(-50%);
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+
+    .hz01 {
+        width: (44rem / @htmlfs);
+        height: (70rem / @htmlfs);
+        // background-color: #01ff30;
+        margin: (11rem / @htmlfs) (25rem / @htmlfs) (24rem / @htmlfs);
+        background: url(../image/cart.png) no-repeat;
+        background-size: (44rem / @htmlfs) (70rem / @htmlfs);
+
+    }
+
+    .hz02 {
+        flex: 1;
+        input {
+            width: 100%;
+            height: (66rem / @htmlfs);
+            border-radius: (33rem / @htmlfs);
+            font-size: (25rem / @htmlfs);
+            border: 0;
+            padding-left: (55rem / @htmlfs);
+        }
+
+        // background-color: aqua;
+    }
+
+    .hz03 {
+        width: (75rem / @htmlfs);
+        height: (70rem / @htmlfs);
+        font-size: (25rem / @htmlfs);
+        line-height: (70rem / @htmlfs);
+        text-align: center;
+        margin: (10rem / @htmlfs);
+        color: #fff;
+        // background-color: #09ff01;
+    }
+}
+
+.banner {
+    width: 15rem;
+    height: (338rem / @htmlfs);
+    margin-top: (115rem / @htmlfs);
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.gg {
+    margin-top: (20rem / @htmlfs);
+    width: 15rem;
+    display: flex;
+
+    a {
+        flex: 1;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.nav {
+    overflow: hidden;
+    width: 15rem;
+    // background-color: #ff9fff;
+    margin-top: (20rem / @htmlfs);
+
+    a {
+        float: left;
+        width: (150rem / @htmlfs);
+        height: (140rem / @htmlfs);
+        text-align: center;
+        text-decoration: none;
+
+        img {
+            display: block;
+            width: (82rem / @htmlfs);
+            height: (82rem / @htmlfs);
+            margin: (10rem / @htmlfs) auto (5rem / @htmlfs);
+        }
+
+        span {
+            display: block;
+            color: #333;
+            font-size: (25rem / @htmlfs);
+        }
+    }
+}
+
+.hz04 {
+    box-sizing: border-box;
+    padding: 0 (15rem / @htmlfs);
+    margin-top: (20rem / @htmlfs);
+    width: (750rem / @htmlfs);
+    height: (440rem / @htmlfs);
+    background: -webkit-linear-gradient(top, #fff4fb, #faafe4);
+    border-radius: (10rem / @htmlfs);
+
+    .hz05 {
+        width: 100%;
+        height: 45%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .hz06 {
+        margin-top: (20rem / @htmlfs);
+        width: 100%;
+        height: 45%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.hz07 {
+    margin-top: (20rem / @htmlfs);
+    margin-left: (15rem / @htmlfs);
+    width: (720rem / @htmlfs);
+    height: (500rem / @htmlfs);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: (30rem / @htmlfs);
+    overflow: hidden;
+
+    .hz08 {
+        width: 100%;
+        height: 20%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .hz09 {
+        width: 100%;
+        height: 80%;
+        // background-color: #33ff66;
+        display: flex;
+
+        span {
+            flex: 1;
+            // background-color: #33ff66;
+            box-sizing: border-box;
+            padding: (10rem / @htmlfs) (20rem / @htmlfs) (10rem / @htmlfs);
+
+            img {
+                display: block;
+                width: (180rem / @htmlfs);
+                height: (180rem / @htmlfs);
+                margin: 0 auto;
+            }
+
+            .p1 {
+                margin-top: (10rem / @htmlfs);
+                margin-bottom: 0;
+                font-size: (20rem / @htmlfs);
+                overflow: hidden;
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+
+            .p2 {
+                float: left;
+                padding: 0;
+                border: 1px solid rgb(249, 105, 69);
+                font-size: (10rem / @htmlfs);
+                background-color: transparent;
+                border-radius: (5rem / @htmlfs);
+                color: rgb(222, 105, 50);
+            }
+
+            .p3 {
+                margin-top: (-30rem / @htmlfs);
+                font-size: (10rem / @htmlfs);
+                color: rgb(222, 105, 50);
+            }
+
+            .p4 {
+                position: relative;
+                margin: 0;
+                padding: 0;
+                font-size: (10rem / @htmlfs);
+                color: rgb(222, 105, 50);
+                &::after {
+                    display: block;
+                    content: '';
+                    background: url(../image/qiangCart-42.png) no-repeat;
+                    background-size: (42rem / @htmlfs) (42rem / @htmlfs);
+                    position: absolute;
+                    right: (10rem / @htmlfs);
+                    top: (-20rem / @htmlfs);
+                    width: (42rem / @htmlfs);
+                    height: (42rem / @htmlfs);
+                }
+                i {
+                    font-size: (28rem / @htmlfs);
+                    font-style: normal;
+                }
+            }
+        }
+
+        span:nth-child(2) {
+            margin: 0 (15rem / @htmlfs);
+
+        }
+    }
+}
+.hz010 {
+    margin-top: (20rem / @htmlfs);
+    margin-left: (15rem / @htmlfs);
+    width: (720rem / @htmlfs);
+    height: (210rem / @htmlfs);
+    display: flex;
+    span {
+        flex: 1;
+        margin-left: (5rem / @htmlfs);
+        margin-right: (5rem / @htmlfs);
+        img {
+            width: 100%;
+        }
+    }
+}
+.hz11 {
+    margin-top: (10rem / @htmlfs);
+    margin-left: (15rem / @htmlfs);
+    width: (720rem / @htmlfs);
+    height: (540rem / @htmlfs);
+    display: flex;
+    flex-wrap: wrap;
+    span {
+        width: (340rem / @htmlfs);
+        background-color: #ffffff;
+        margin: 0 (10rem / @htmlfs) (20rem / @htmlfs);
+        border-radius: (20rem / @htmlfs);
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 0 (10rem / @htmlfs);
+        img {
+            display: block;
+            width: (346rem / @htmlfs);
+            height: (346rem / @htmlfs);
+            margin: 0 auto;
+        }
+
+        .p1 {
+            margin-top: (10rem / @htmlfs);
+            margin-bottom: 0;
+            font-size: (20rem / @htmlfs);
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .p2 {
+            float: left;
+            padding: 0;
+            border: 1px solid rgb(249, 105, 69);
+            font-size: (10rem / @htmlfs);
+            background-color: transparent;
+            border-radius: (5rem / @htmlfs);
+            color: rgb(222, 105, 50);
+            width: (130rem / @htmlfs);
+            text-align: center;
+        }
+
+
+        .p4 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            margin-top: -10px;
+            font-size: (30rem / @htmlfs);
+            color: rgb(222, 105, 50);
+            &::after {
+                display: block;
+                content: '';
+                background: url(../image/addCart-42.png) no-repeat;
+                background-size: (42rem / @htmlfs) (42rem / @htmlfs);
+                position: absolute;
+                right: (10rem / @htmlfs);
+                top: (-20rem / @htmlfs);
+                width: (42rem / @htmlfs);
+                height: (42rem / @htmlfs);
+            }
+            i {
+                font-size: (36rem / @htmlfs);
+                font-style: normal;
+            }
+        }
+    }
+}

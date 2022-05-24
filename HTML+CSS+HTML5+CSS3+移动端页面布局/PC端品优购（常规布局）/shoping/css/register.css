@@ -1,0 +1,164 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+header div {
+    padding-top: 18px;
+}
+
+article {
+    margin-top: 20px;
+    height: 520px;
+    /* background-color: #ff9fff; */
+    border: 1px solid #cdcdcd;
+}
+
+article .xyh {
+    height: 42px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #ebebeb;
+}
+
+article .xyh span {
+    display: block;
+    float: left;
+    line-height: 42px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+article .xyh i {
+    display: block;
+    float: right;
+    line-height: 42px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+article .xyh i a {
+    color: #c81523;
+}
+
+article .xx {
+    width: 600px;
+    /* background-color: #aaff9f; */
+    margin: 50px auto 0;
+}
+
+article .xx ul li {
+    margin-bottom: 20px;
+}
+
+article .xx label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+article .xx .sjh {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #cfcfcf;
+}
+
+article .xx .pd1 {
+    color: #c88015;
+    margin-left: 30px;
+}
+
+article .xx .pd1 .cha {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-top: -3px;
+    background-image: url(../images/cha.png);
+}
+
+article .xx .pd2 {
+    color: #18c815;
+    margin-left: 30px;
+}
+
+article .xx .pd2 .gou {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-top: -3px;
+    background-image: url(../images/gou.png);
+}
+
+article .xx .aqcd {
+    padding-left: 105px;
+    margin-top: -10px;
+}
+
+.aqcd .r {
+    padding: 0 22px;
+    height: 12px;
+    color: #fff;
+    background-color: #c81523;
+    margin-left: 3px;
+}
+
+.aqcd .z {
+    padding: 0 22px;
+    height: 12px;
+    color: #fff;
+    background-color: #c88015;
+    margin-left: 3px;
+}
+
+.aqcd .q {
+    padding: 0 22px;
+    height: 12px;
+    color: #fff;
+    background-color: #18c815;
+    margin-left: 3px;
+}
+
+.xx .ty {
+    margin-left: 100px;
+}
+
+.xx .ty input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.xx .ty a {
+    margin-left: 10px;
+    color: #00e1ff;
+}
+
+.xx .tj {
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+
+.foot03 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.foot03 p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.foot03 a {
+    margin: 0 5px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第三十三次</title>
+    <link rel="stylesheet" href="disanshisanci.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+
+<body>
+    <!-- <form action="123.html" target="_self" method="get" class="bd"> -->
+    <!-- <form action="123.html" class="bd">
+        <input type="text" name="yhm" id="">
+        <input type="password" name="mm" id="">
+        <button type="submit">提交</button>
+    </form> -->
+    <!-- <div class="d01">
+        <form action="123.html" class="f001">
+            <div class="panel panel-primary d03">
+                <div class="panel-heading">
+                    <h3 class="panel-title">发表评论</h3>
+                </div>
+                <div class="d02">
+                    <p>评论人</p>
+                    <input type="text" name="username" id="input" class="form-control" />
+                    <p>评论内容</p>
+                    <textarea name="content" class="form-control"></textarea>
+                    <button type="submit" class="btn btn-primary btn001">发表</button>
+                </div>
+            </div>
+        </form>
+        <ul class="list-group d03 d003">
+        </ul>
+    </div> -->
+    <!-- <h2>用户信息</h2>
+    <div>姓名：<span class="mz"></span></div>
+    <div>年龄：<span class="nl"></span></div>
+    <div>会员：<span class="vip"></span></div>
+    <div>注册时间：<span class="sj"></span></div>
+    <div>爱好：
+        <ul class="ah">
+        </ul>
+    </div> -->
+    <div class="dd01"></div>
+    <script type="text/html" id="scr02">
+        {{each data}}
+        <div class="d01">
+            <div class="d02"><img src="{{'http://www.liulongbin.top:3006'+$value.img}}"></div>
+            <div class="d02">
+                <h2>{{$value.source}}</h2>
+                <div class="d03">
+                    <ul>
+                        {{each $value.tags}}
+                        <li>{{$value}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="d04"><span>{{$value.title}}</span><span>{{$value.time|fun1}}</span><span>点赞数：{{$value.cmtcount}}</span></div>
+            </div>
+        </div>
+        {{/each}}
+    </script>
+</body>
+<!-- <script type="text/html" id="scr01">
+    <h2>用户信息</h2>
+    <div>姓名：<span class="mz">{{mz}}</span></div>
+    <div>年龄：<span class="nl">{{nl}}</span></div>
+    <div>会员：<span class="vip">{{hy}}</span></div>
+    <div>注册时间：<span class="sj">{{sj|gshsj}}</span></div>
+    <div>爱好：
+        <ul class="ah">
+           <li>{{ah[0]}}</li>
+           <li>{{ah[1]}}</li>
+           <li>{{ah[2]}}</li>
+           <li>{{@ aaa}}</li>
+           <li>{{if a==1}}
+               a是傻逼
+               {{else if a!==1}}
+               a是骚逼
+               {{/if}}
+           </li>
+           <li>
+               {{each arr01}}
+               <a href="javascript:;" style="display: block;">索引是{{$index}}内容是{{$value}}</a>
+               {{/each}}
+           </li>
+        </ul>
+    </div>
+</script> -->
+
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="template-web.js"></script>
+<script src="disanshisanci.js"></script>
+
+</html>

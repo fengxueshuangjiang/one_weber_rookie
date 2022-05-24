@@ -1,0 +1,122 @@
+/* .btn-default {
+    background-color: #ffc0ff;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+    background-color: #c0ffc0;
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+
+.d01 {
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    background-color: #ffc0ff;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+.sp01,.sp02 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #70c1ff;
+    border-radius: 10px;
+}
+label {
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #fff;
+}
+
+.inp01 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn01 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #70c1ff;
+}
+
+.d02 {
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+}
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    height: 30px;
+    list-style: none;
+    font-size: 18px;
+    background-color: #ffd9ff;
+}
+
+li span {
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: #ffc0ff;
+    vertical-align: middle;
+}
+
+li input {
+    margin-left: 50px;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    vertical-align: middle;
+}
+li a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+}
+h3 {
+    position: relative;
+    margin: 0;
+}
+
+body {
+    background-color: #ededed;
+} */
+
+.d01 {
+    font-size: 40px;
+    line-height: 500px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #ffc0ff;
+}

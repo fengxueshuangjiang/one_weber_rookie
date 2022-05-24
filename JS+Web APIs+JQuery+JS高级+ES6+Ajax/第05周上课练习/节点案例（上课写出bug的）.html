@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .d01 {
+            text-align: center;
+            float: left;
+            width: 50px;
+        }
+        .d01 ul {
+            display: none;
+        }
+        .d01 ul li {
+            border: 1px solid #ff9fff;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+        <ul id="ul01">
+            <li class="d01">
+                <a href="script:;">加油</a>
+                <ul>
+                    <li>123</li>
+                    <li>123</li>
+                    <li>112</li>
+                </ul>
+            </li>
+            <li class="d01">
+                <a href="script:;">加油</a>
+                <ul>
+                    <li>123</li>
+                    <li>123</li>
+                    <li>112</li>
+                </ul>
+            </li>
+            <li class="d01">
+                <a href="script:;">加油</a>
+                <ul>
+                    <li>123</li>
+                    <li>123</li>
+                    <li>112</li>
+                </ul>
+            </li>
+        </ul>
+    <script>
+        var ul01=document.querySelector('#ul01');
+        var lis=ul01.children;
+        for (var i=0;i<lis.length;i++) {
+            lis[i].onmouseover=function () {
+                this.children[1].style.display='block';
+            }
+            lis[i].onmouseout=function () {
+                this.children[1].style.display='none';
+            }
+        }
+        console.log(ul01);
+        console.log(lis);
+    </script>
+</body>
+
+</html>

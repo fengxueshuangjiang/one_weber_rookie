@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第三十六次</title>
+    <script src="jquery.js"></script>
+    <script src="template-web.js"></script>
+    <style>
+        li {
+            width: 200px;
+        }
+        li:hover {
+            background-color: rgb(138, 138, 138);color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>1</div> -->
+    <div class="d01">
+        <input type="search" id="inp01" placeholder="请输入想搜索的物品"><button>搜索</button>
+    </div>
+    <div id="d011">
+    </div>
+    <script type="text/html" id="scr01">
+        {{each result}}
+        <li style="list-style: none; margin: 5px 0; cursor: pointer;">{{$value[0]}}</li>
+        {{/each}}
+    </script>
+</body>
+<script src="disanshiliuci.js"></script>
+<!-- <script src="http://yst.3vkj.net/disanshiliuci02.js?callback=shuju"></script> -->
+</html>

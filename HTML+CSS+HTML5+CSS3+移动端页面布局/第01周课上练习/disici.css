@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hezi1 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+.hezi2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.hezi3 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+}
+div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+}
+#li1 {
+    font-size: 25px;
+    color: pink;
+}
+#li2 {
+    font-size: 50px;
+    color: greenyellow;
+}
+.li11 {
+    font-size: 20px;
+}
+.li12 {
+    color: #f789ff;
+}
+#li5 {
+    font-weight: 1000;
+}
+.pp1 {
+    text-align: center;
+}

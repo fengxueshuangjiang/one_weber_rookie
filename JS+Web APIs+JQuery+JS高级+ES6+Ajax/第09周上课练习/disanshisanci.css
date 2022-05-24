@@ -1,0 +1,91 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.d01 {
+    padding: 20px;
+}
+
+.d02 {
+    padding: 15px;
+}
+.d03 {
+    width: 800px;
+    margin: 0 auto;
+}
+.form-control {
+    resize: none;
+}
+.d01 .d02 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.btn001 {
+    margin-top: 15px;
+}
+i{
+    font-style: normal;
+}
+.d03 .sp01 {
+    background-color: #fc8cfc;
+}
+.d03 .sp02 {
+    background-color: #84e6ff;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+h2 {
+    margin-left: 10px;
+}
+.d01 {
+    width: 1000px;
+    height: 200px;
+}
+.d02 {
+    float: left;
+    height: 200px;
+}
+.d02:nth-child(1){
+    width: 300px;
+    background-color: #ffc0ff;
+}
+.d02:nth-child(2){
+    width: 700px;
+    background-color: #e6e6e6;
+}
+.d02:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+}
+.d03{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 60px;
+}
+.d03 ul li {
+    float: left;
+    background-color: #90ff9d;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.d04 {
+    margin:40px 10px 0px 10px;
+    font-size: 16px;
+}
+.d04 span{
+    margin-right:10px;
+    font-size: 12px;
+}
+.d04 span:last-child {
+    float: right;
+}
+.d01 {
+    margin-bottom: 20px;
+}

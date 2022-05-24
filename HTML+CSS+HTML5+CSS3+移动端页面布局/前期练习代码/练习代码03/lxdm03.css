@@ -1,0 +1,38 @@
+.biaoti1 {
+    line-height: 50px;
+    font-weight: 400;
+}
+.juzhong {
+    text-align: center;
+}
+.ta1 {
+    line-height: 25px;
+}
+.d001 {
+    border-bottom: 1px solid #000000;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+#d01 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 1000px;
+    background-image: url(288e6291aa9da9d8e20dda773721b88fe4ceb460.jpg);
+}
+.dl01 {
+    text-indent: 2em;
+}
+body {
+    font: 16px/28px "微软雅黑";
+}
+a {
+    text-decoration: none;
+}
+#a1 {
+    font-weight: 600;
+}
+.d002 {
+    color: #a5a5a5;
+    font-size: 14px;
+}

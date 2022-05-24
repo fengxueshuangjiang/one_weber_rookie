@@ -1,0 +1,305 @@
+body {
+  min-width: 320px;
+  max-width: 750px;
+  width: 10rem;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 10rem;
+  height: 1.1733rem;
+  transform: translateX(-50%);
+  background-color: #ff800a;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+header .hz01 {
+  width: .5867rem;
+  height: .9333rem;
+  margin: .1467rem .32rem .1333rem;
+  background-color: #ff9fff;
+  background: url(../image/cart.png) no-repeat;
+  background-size: .5867rem .9333rem;
+}
+
+header .hz02 {
+  flex: 1
+}
+
+header .hz02 input {
+  width: 100%;
+  height: .88rem;
+  font-size: .3333rem;
+  box-sizing: border-box;
+  padding-left: .4rem;
+  margin-top: .1333rem;
+  border-radius: .44rem;
+  border: 0;
+}
+
+header .hz03 {
+  margin: .1333rem;
+  width: 1rem;
+  height: .9333rem;
+  color: #fff;
+  line-height: .9333rem;
+  text-align: center;
+  font-size: .3333rem;
+}
+
+.banner {
+  width: 10rem;
+  /* height: 2.8333rem; */
+  margin-top: 1.4667rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.ggao {
+  width: 10rem;
+  margin-top: .1333rem;
+  display: flex;
+  border-radius: .28rem;
+  overflow: hidden;
+}
+
+.ggao a {
+  flex: 1;
+}
+
+.ggao a img {
+  width: 100%;
+}
+
+nav {
+  margin-top: .3333rem;
+  width: 10rem;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a img {
+  width: 1.0933rem;
+  height: 1.0933rem;
+  display: block;
+  margin: 0 auto .1333rem;
+}
+
+article {
+  box-sizing: border-box;
+  padding: 0 .2rem;
+  margin-top: .2667rem;
+  width: 10rem;
+  height: 5.8667rem;
+  background: -webkit-linear-gradient(top, #fff4fb, #faafe4);
+  border-radius: .1333rem;
+}
+
+.hz04 img {
+  width: 100%;
+  height: 45%;
+  margin-bottom: .2667rem;
+}
+
+.hz05 img {
+  width: 100%;
+  height: 45%;
+}
+
+.biqiang {
+  width: 9.6rem;
+  height: 5.6rem;
+  margin-left: .2rem;
+  margin-top: .4rem;
+  background-color: #fff;
+  border-radius: .4rem;
+}
+
+.biqiang .dd img {
+  width: 100%;
+}
+
+.biqiang .hz06 {
+  display: flex;
+}
+
+.biqiang .hz06 div {
+  flex: 1;
+  height: 4.2667rem;
+  /* background-color: #faafe4; */
+  box-sizing: border-box;
+  padding: .1333rem .2667rem .1333rem;
+  margin: 0 .1333rem;
+}
+
+.biqiang .hz06 .nb01 {
+  height: 1.44rem;
+}
+
+.biqiang .hz06 .nb01 img {
+  display: block;
+  margin: 0 auto;
+  width: 1.64rem;
+  height: 1.64rem;
+}
+
+.biqiang .hz06 i {
+  font-size: .24rem;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-style: normal;
+  margin-top: .3rem;
+}
+
+.biqiang .hz06 span {
+  border: 1px solid #fe5f20;
+  color: #fe5f20;
+  border-radius: .0533rem;
+}
+
+.biqiang .hz06 p {
+  color: #fe5f20;
+  margin-top: 0.1rem;
+}
+
+.biqiang .hz06 em {
+  display: block;
+  margin-top: -.3rem;
+  color: #fe5f20;
+  font-style: normal;
+  position: relative;
+}
+
+.biqiang .hz06 em b {
+  font-size: .4rem;
+}
+
+.biqiang .hz06 em::after {
+  display: block;
+  content: '';
+  background: url(../image/qiangCart-42.png) no-repeat;
+  background-size: .56rem .56rem;
+  position: absolute;
+  right: .1333rem;
+  top: -0.15rem;
+  width: .56rem;
+  height: .56rem;
+}
+
+.hz08 {
+  display: flex;
+  width: 9.6rem;
+  /* height: 5.6rem; */
+  margin-left: .2rem;
+  margin-top: .4rem;
+  /* background-color: #faafe4; */
+}
+
+.hz08 span {
+  flex: 1;
+  margin: 0 .0267rem;
+}
+
+.hz08 span img {
+  width: 100%;
+}
+
+.hz09 {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  width: 9.6rem;
+  margin-left: .2rem;
+  margin-top: .4rem;
+  /* background-color: #faafe4; */
+}
+
+.hz09 .nr01 {
+  width: 4.5333rem;
+  margin: 0 .1333rem .2667rem;
+  background-color: #fff;
+  border-radius: .2rem;
+  overflow: hidden;
+}
+
+.hz09 .nr01 div {
+  width: 100%;
+}
+
+.hz09 .nr01 div img {
+  width: 100%;
+}
+
+.hz09 .nr01 p {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-style: normal;
+  margin: .0667rem .0667rem 0;
+  font-style: .3333rem;
+  color: #000;
+}
+
+.hz09 .nr01 span {
+  border: .0133rem solid #fe5f20;
+  color: #fe5f20;
+  border-radius: .1rem;
+  margin: .0667rem .0667rem 0;
+}
+
+.hz09 .nr01 i {
+  font-style: normal;
+  display: block;
+  color: #fe5f20;
+  margin-top: .0667rem;
+  position: relative;
+}
+
+.hz09 .nr01 i b {
+  font-style: normal;
+  font-size: .4rem;
+}
+
+.hz09 .nr01 i::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background: url(../image/addCart-42.png) no-repeat;
+  background-size: .56rem .56rem;
+  position: absolute;
+  right: .1333rem;
+  top: -.01rem;
+  width: .56rem;
+  height: .56rem;
+}

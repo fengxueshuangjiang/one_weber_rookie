@@ -1,0 +1,179 @@
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: #ffc0ff;
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+ul>li {
+    float: left;
+    margin-left: 20px;
+}
+ol{
+    display: none;
+}
+a {
+    text-decoration: none;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.d01 {
+    width: 600px;
+    height: 600px;
+    background-color: #ffc0ff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.d02 {
+    width: 100px;
+    height: 600px;
+}
+.d02 ul li {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #ffc0ff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    width: 100px;
+    height: 60px;
+}
+.d03 {
+    position: relative;
+    width: 500px;
+    height: 6000px;
+}
+.d03 img {
+    vertical-align: middle;
+    width: 500px;
+    height: 600px;
+}
+.d02,.d03 {
+    float: left;
+}
+li {
+    list-style: none;
+} */
+/* .d01{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.d02{
+    color: #ffc0ff;
+    transform: rotate(360deg);
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.d01 {
+    width: 720px;
+    height: 300px;
+    background-color: #ffc1ff;
+    margin: auto;
+}
+
+.d02 {
+    width: 720px;
+    height: 50px;
+    background-color: #e4c1ff;
+}
+
+
+.d02 ul li {
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+.d02 .dd01{
+    color: #fff;
+    background-color: #ff99ff;
+}
+li {
+    list-style: none;
+}
+
+.d03 {
+    width: 720px;
+    height: 250px;
+    background-color: #fff;
+}
+
+.d03 ul li:nth-child(n+2) {
+    display: none;
+} */
+/* .d01 {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+}
+.d01 ul li {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+li {
+    list-style: none;
+} */
+/* .d01 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ffc1ff;
+    margin: auto;
+} */
+/* div {
+    width: 450px;
+    height: 50px;
+    background-color: #ffc1ff;
+}
+
+div ul li {
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+}
+.dangqian .big{
+    display: block;
+}
+.dangqian .small {
+    display: none;
+}
+.dangqian {
+    width: 200px;
+}
+.big {
+    width: 200px;
+    height: 50px;
+    display: none;
+}
+li {
+    list-style: none;
+} */

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bjls {
+    /* width: 1000px;
+    height: 800px; */
+    width: 500px;
+    height: 400px;
+    border: 1px solid red;
+    background-image: url(wu.jpg);
+    /* background-size: 200px 200px; */
+    /* background-size: 50% 40%; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+}
+.ys {
+    box-sizing: border-box;
+    background-color: #ff9fff;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+a {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+input {
+    -webkit-appearance: none;
+}
+.bfbbj {
+    width: 100%;
+    max-width: 960px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.bfbbj div:nth-child(1) {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: #ff9fff;
+}
+.bfbbj div:nth-child(2) {
+    width: 50%;
+    float: left;
+    height: 400px;
+    background-color: #73ff88;
+}
+.kuaibao {
+    position: relative;
+    margin-top: 5px;
+    /* background-color: #ff9fff; */
+}
+.kuaibao .kb01 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+ .kuaibao .kb02 {
+    margin: 0 60px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: xuanzhuan 1s linear infinite alternate; 
+}
+.kuaibao .kb02:hover {
+    animation-play-state: paused;
+} 
+@keyframes xuanzhuan {
+    0% {
+        transform: rotateX(0);
+    }
+    100% {
+        transform: rotateX(90deg);
+    }
+}
+
+.kuaibao .kb02 div {
+    width: 100%;
+    line-height: 20px;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+}
+.kuaibao .kb02 .shang{
+    background: rgb(0, 252, 8);
+    transform: translateZ(10px);
+}
+.kuaibao .kb02 .xia{
+    background: rgb(242, 0, 255);
+    
+    transform: translateY(10px) rotateX(-90deg);
+}
+.kuaibao .kb03 {
+    font-size: 10px;
+    line-height: 20px;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}

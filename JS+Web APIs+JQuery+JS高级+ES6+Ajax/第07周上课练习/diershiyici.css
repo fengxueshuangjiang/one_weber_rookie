@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+}
+.a1 {
+    width: 1190px;
+    height: 600px;
+    background-color: #ffc0ff;
+    margin: 0 auto;
+}
+.a2 {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #c5ffc0;
+}
+.a2 ul li {
+    box-sizing: border-box;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    border-bottom: 1px solid #333;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+.a2 ul li:last-child {
+    border-right: 1px solid #333;
+}
+.b0 {
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 70%;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+}
+.b1 {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    right: 0;
+}
+.a3 {
+    width: 100%;
+    height: 540px;
+}
+.a4 {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+.xs {
+    display: block;
+}
+.bk {
+    border-bottom: 0 !important ;
+}
+.a2 input {
+    width: 80px;
+    height: 30px;
+}
+.a4 input {
+    width: 180px;
+    height: 60px;
+}
+.bbb1 {
+    width: 1190px;
+    height: 600px;
+    background-color: #ffc0ff;
+    margin: 0 auto;
+}

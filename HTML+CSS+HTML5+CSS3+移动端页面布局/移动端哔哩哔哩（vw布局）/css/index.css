@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    min-width: 100vw;
+    max-width: 258.6667vw;
+    margin: 0;
+    padding: 0;
+    /* height: 2000px; */
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 11.7333vw;
+    padding: 0 4vw 0 4vw;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1;
+}
+
+header div {
+    float: left;
+    line-height: 11.7333vw;
+}
+
+header .hz01 {
+    position: relative;
+    font-size: 6.9333vw;
+    color: #ff6fb2;
+}
+
+header .hz02 {
+    font-family: 'iconfont';
+    color: #cecece;
+    margin-left: 36vw;
+    font-size: 5vw;
+
+}
+
+header .hz03 {
+    width: 6.4vw;
+    height: 6.4vw;
+    border-radius: 50%;
+    background-color: #eaeaea;
+    font-size: 2.1333vw;
+    text-align: center;
+    line-height: 6.4vw;
+    color: #ff6fb2;
+    margin: 2.4vw 2.6667vw;
+}
+
+header .hz04 {
+    width: 18.6667vw;
+    height: 6.4vw;
+    margin: 2.45vw 0;
+    background-color: #ff6fb2;
+    border-radius: 1.0667vw;
+    line-height: 6.4vw;
+    font-size: 3.7333vw;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 11.7333vw;
+    left: 0;
+    width: 100vw;
+    height: 10.6667vw;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    background-color: #fff;
+    line-height: 10.6667vw;
+    z-index: 1;
+    
+}
+nav ul li {
+    width: 7.5vw;
+    height: 10.6667vw;
+    text-align: center;
+    margin-right: 5.3333vw;
+    box-sizing: border-box;
+    float: left;
+    font-size: 3.7333vw;
+}
+nav ul li:nth-child(1) {
+    border-bottom: 0.5333vw solid #ff6fb2;
+    color: #ff6fb2;
+}
+section {
+    padding: 0 4vw;
+    box-sizing: border-box;
+    margin-top: 24vw;
+}
+section ul li {
+    width: 50%;
+    height: 35vw;
+    position: relative;
+    margin-bottom: 2.6667vw;
+    float: left;
+    border-radius: 0.4vw;
+    overflow: hidden;
+}
+section ul li .hz05 {
+    height: 25.8667vw;
+}
+section ul li .hz05 img {
+    width: 100%;
+    height: 100%;
+}
+section ul li p {
+    width: 100%;
+    position: absolute;
+    top: 20.5vw;
+    left: 0;
+    margin: 0;
+    padding: 0 1.5vw;
+    box-sizing: border-box;
+}
+section ul li p i:nth-child(1) {
+    font-family: 'iconfont';
+    float: left;
+    font-size: 3.2vw;
+    font-style: normal;
+    color: #fff;
+}
+section ul li p i:nth-child(2) {
+    font-family: 'iconfont';
+    float: right;
+    font-size: 3.2vw;
+    font-style: normal;
+    color: #fff;
+}
+section ul li span {
+    font-size: 3.2vw;
+}
+section ul li:nth-child(2n+1) {
+    padding-right: 1.3333vw;
+    box-sizing: border-box;
+}
+section ul li:nth-child(2n) {
+    padding-left: 1.3333vw;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_3286944_ct73ubwqaeg/iconfont.eot');
+    src: url('../font_3286944_ct73ubwqaeg/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font_3286944_ct73ubwqaeg/iconfont.woff') format('woff'),
+        url('../font_3286944_ct73ubwqaeg/iconfont.ttf') format('truetype'),
+        url('../font_3286944_ct73ubwqaeg/iconfont.svg#iconfont') format('svg');
+}

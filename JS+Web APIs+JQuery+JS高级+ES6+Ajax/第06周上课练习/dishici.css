@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .fa {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #ffc0ff;
+    overflow: hidden;
+}
+.son {
+    width: 100px;
+    margin-top: 20px;
+    height: 100px;
+    background-color: #8373ff;
+    margin-left: 20px;
+}
+.d01 {
+    // box-sizing: border-box; 
+    width: 100px;
+    height: 200px;
+    border: 1px solid #ffc0ff;
+    padding: 20px;
+    background-color: #b6ffa7;
+} */
+/* .d01 {
+    margin: 0 auto;
+    box-sizing: border-box; 
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #ffc0ff;
+    padding: 20px;
+    background-color: #b6ffa7;
+}  */
+/* 模态框 */
+/* .btn01 {
+    width: 200px;
+    height: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    border: 0;
+    background-color: #ffc0ff;
+    outline: none;
+}
+.d01 {
+    box-sizing: border-box;
+    position: relative;
+    margin: 180px auto;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #b6b6b6;
+    cursor: move;
+    display: none;
+    z-index: 2;
+}
+.d02 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #8d8d8d;
+    border-radius: 50%;
+}
+.d01 p {
+    margin-top: 10px;
+    text-align: center;
+}
+.d03,.d04{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+input {
+    vertical-align: middle;
+}
+.d05 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(62, 62, 62, 0.3);
+} */
+/* 京东看图模块 */
+.d01 {
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+.d02 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(253, 156, 255, 0.3);
+}
+.d01>img {
+    display: block;
+    width: 200px;
+    height: 350px;
+    margin:auto;
+}
+.d03 {
+    position: absolute;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+    display: none;
+    overflow: hidden;
+}
+.d03>img {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}

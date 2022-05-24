@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.yd1 {
+    width: 200px;
+    height: 200px;
+    background-color: #ff9fff;
+    /* transform: translate(100px,100px); */
+    /* transform: translate(0,100px); */
+    /* transform: translateX(100px); */
+    transform: translateY(100px);
+}
+
+.yd2 {
+    width: 200px;
+    height: 200px;
+    background-color: #aeff9f;
+}
+
+.yd3 {
+    width: 200px;
+    height: 200px;
+    background-color: #9fe9ff;
+    /* transform: translateX(50%); */
+    transition: all 0.4s;
+}
+
+.yd3:hover {
+    transform: translateY(-5px);
+}
+
+.yd4 {
+    width: 500px;
+    height: 500px;
+    background-color: #ff9f9f;
+    position: relative;
+}
+
+.yd5 {
+    width: 200px;
+    height: 200px;
+    background-color: #faff9f;
+    position: absolute;
+    top: 50%;
+    /* margin-top: -100px; */
+    left: 50%;
+    /* margin-left: -100px; */
+    transform: translate(-50%, -50%);
+}
+
+.md img {
+    height: 200px;
+    transition: all 2s;
+}
+
+.md img:hover {
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+.sj {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #ff9fff;
+    border-right: 2px solid #ff9fff;
+    transform: rotate(45deg);
+}
+
+.sj02 {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+}
+
+.sj02::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #ff9fff;
+    border-right: 2px solid #ff9fff;
+    transform: rotate(135deg);
+    top: 5px;
+    right: 8px;
+    transition: all 0.2s;
+}
+
+.sj02:hover::after {
+    transform: rotate(-45deg);
+}
+
+.zxd {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    /* transform-origin: 0 0; */
+    transform-origin: 100% 0;
+    background-color: #9fe9ff;
+    transition: all 2s;
+}
+
+.zxd:hover {
+    transform: rotate(720deg);
+}
+
+.xz01 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #9fe9ff;
+    margin: 0px auto;
+    position: relative;
+}
+
+.xz02 {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ff9fff;
+    transform: translate(-50%, -50%);
+}
+
+.xz02::after {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #aeff9f;
+    content: '';
+    transform: rotate(180deg);
+    transform-origin: left bottom;
+    transition: all 0.5s;
+}
+
+.xz02:hover::after {
+    transform: rotate(0deg);
+}
+
+.sf01 {
+    width: 200px;
+    height: 200px;
+    background-color: #ff9fff;
+    margin: 0 auto;
+    transition: all 0.5s;
+    transform-origin: left bottom;
+}
+
+.sf01:hover {
+    /* transform: scale(2,2); */
+    transform: scale(0.5, 0.5);
+}
+
+.sf02 {
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.sf02 img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.sf02 img:hover {
+    transform: scale(1.1);
+}
+
+.sf03 {
+    width: 280px;
+    margin: 10px auto;
+
+}
+
+.sf03 ul li {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #aeff9f;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    transition: all 0.5;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sf03 ul li:hover {
+    transform: scale(1.4);
+}
+
+.dh01 {
+    height: 200px;
+    width: 200px;
+    background-color: #9fe9ff;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(1280px);
+    }
+}
+
+.dh02 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9fff;
+    animation-name: xulie;
+    animation-duration: 5s;
+    /* animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    /* animation: xulie 5s ease-in 0.5s infinite alternate ; */
+}
+
+@keyframes xulie {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(1290px, 0);
+    }
+
+    50% {
+        transform: translate(1290px, 400px);
+    }
+
+    75% {
+        transform: translate(0, 400px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.rediantu {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.rediantu img {
+    width: 100%;
+    height: 100%;
+}
+
+.rediantu p {
+    position: absolute;
+    top: 105px;
+    right: 110px;
+}
+
+.rediantu .city {
+    position: absolute;
+    top: 110px;
+    right: 145px;
+}
+
+.rediantu .quan1 {
+    width: 8px;
+    height: 8px;
+    background-color: #00bfff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rediantu .quan2,
+.rediantu .quan3,
+.rediantu .quan4 {
+    width: 8px;
+    height: 8px;
+    box-shadow: 0px 0px 10px #00bfff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+@keyframes bowen {
+    0% {}
+
+    70% {
+        width: 40px;
+        height: 40px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 70px;
+        height: 70px;
+        opacity: 0;
+    }
+}
+
+.rediantu .quan2 {
+    animation: bowen 1s linear infinite;
+}
+
+.rediantu .quan3 {
+    animation: bowen 1s linear infinite;
+    animation-delay: 0.33s;
+}
+
+.rediantu .quan4 {
+    animation: bowen 1s linear infinite;
+    animation-delay: 0.66s;
+}
+
+.rediantu .city01 {
+    position: absolute;
+    top: 220px;
+    right: 120px;
+}
+
+.city01 .quan1 {
+    width: 8px;
+    height: 8px;
+    background-color: #00bfff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city01 .quan2,
+.city01 .quan3,
+.city01 .quan4 {
+    width: 8px;
+    height: 8px;
+    box-shadow: 0px 0px 10px #00bfff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.city01 .quan2 {
+    animation: bowen 1s linear infinite;
+}
+
+.city01 .quan3 {
+    animation: bowen 1s linear infinite;
+    animation-delay: 0.33s;
+}
+
+.city01 .quan4 {
+    animation: bowen 1s linear infinite;
+    animation-delay: 0.66s;
+}
+
+.city01 span {
+    display: block;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -45px;
+}
+
+.bu {
+    font-size: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: djz 5s steps(12) forwards;
+    margin: 100px auto;
+}
+
+@keyframes djz {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 960px;
+    }
+}
+
+.xx {
+    width: 200px;
+    height: 100px;
+    background-color: #dddddd;
+    background-image: url(9811146e174b4d8f940d8b92cf2b4c94.png);
+    animation: bpdxx 1s steps(8) infinite, bpdxx1 5s ease-in-out forwards;
+    position: absolute;
+}
+
+@keyframes bpdxx {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -1600px 0;
+    }
+}
+
+@keyframes bpdxx1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(650px);
+    }
+}
+
+.ts {
+    perspective: 400px;
+}
+
+.ts div {
+    width: 200px;
+    height: 200px;
+    margin: 500px auto;
+    background-color: #00bfff;
+    transform: translate3d(20px, 30px, 200px);
+}
